@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-cream: #FDFBF7;
+  --primary-brown: #4A2E2B;
+  --accent-maroon: #7A2628;
+  --accent-green: #3A5F43;
+}
+
+body {
+  background-color: var(--bg-cream);
+  color: #2B2B2B;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, .font-serif {
+  font-family: 'Playfair Display', serif;
+}
